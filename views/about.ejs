@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Flag Challenge Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      .navbar {
+        background-color: #333;
+        padding: 1rem;
+      }
+      .nav-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+      .nav-menu li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+      .nav-menu li a:hover {
+        background-color: #555;
+        border-radius: 3px;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      .content-section {
+        margin-bottom: 30px;
+      }
+      .content-image {
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 10px;
+        transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <ul class="nav-menu">
+          <li><a href='/'>Home</a></li>
+          <li><a href='/about'>About</a></li>
+          <li><a href="/blogs">Blogs</a></li>
+          <li><a href='/contact'>Contact</a></li>
+          <li><a href='/login'>Login</a></li>
+          <li><a href='/signup'>Signup</a></li>
+          <li><a href='/profile'>Profile</a></li>
+          <li><a href='/hints'>Hints</a></li>
+          <li><a href='/scoreboard'>Scoreboard</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="content-section">
+        <h1>About ACES</h1>
+        <p>
+          ACES, the Association of Computer Engineering Students at IOE
+          Purwanchal Campus, is dedicated to empowering students through
+          training, competitions, and tech events.
+        </p>
+        <img
+          src="i8.jpg"
+          alt="ACES Overview"
+          class="content-image"
+        />
+      </div>
+
+      <div class="content-section">
+        <h2>Connect with Us</h2>
+        <p>Email: <a href="mailto:aces@gmail.com">techfest@ioepc.edu.np</a></p>
+        <p>Follow us on:</p>
+        <a href="https://discord.com" class="btn">Discord</a>
+        <a href="https://facebook.com" class="btn">Facebook</a>
+        <a href="https://github.com" class="btn">GitHub</a>
+        <a href="https://www.instagram.com" class="btn">Instagram</a>
+        <a href="https://www.youtube.com" class="btn">YouTube</a>
+      </div>
+    </div>
+  </body>
+</html>

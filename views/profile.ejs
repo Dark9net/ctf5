@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile - Flag Challenge Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+      }
+      /* Navigation Styles */
+      .navbar {
+        background-color: #333;
+        padding: 1rem;
+      }
+      .nav-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+      .nav-menu li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+      .nav-menu li a:hover {
+        background-color: #555;
+        border-radius: 3px;
+      }
+      .profile-container {
+        width: 100%;
+        max-width: 500px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 40px auto;
+        text-align: center;
+      }
+      .profile-header {
+        margin-bottom: 20px;
+      }
+      .profile-header img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      .profile-header h1 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 5px;
+      }
+      .profile-header p {
+        color: #666;
+        font-size: 14px;
+      }
+      .profile-info {
+        text-align: left;
+        margin-top: 20px;
+      }
+      .profile-info p {
+        margin-bottom: 10px;
+        font-size: 16px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      .btn-logout {
+        background-color: #dc3545;
+      }
+      .btn-logout:hover {
+        background-color: #a71d2a;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <ul class="nav-menu">
+          <li><a href='/'>Home</a></li>
+          <li><a href='/about'>About</a></li>
+          <li><a href="/blogs">Blogs</a></li>
+          <li><a href='/contact'>Contact</a></li>
+          <li><a href='/login'>Login</a></li>
+          <li><a href='/signup'>Signup</a></li>
+          <li><a href='/profile'>Profile</a></li>
+          <li><a href='/hints'>Hints</a></li>
+          <li><a href='/scoreboard'>Scoreboard</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="profile-container">
+      <div class="profile-header">
+        <img src="i1.jpg" alt="User Avatar" />
+        <h1>Aces IOEPC</h1>
+        <p>@johndoe</p>
+      </div>
+      <div class="profile-info">
+        <p><strong>Email:</strong> aces@ioepc.edu.np</p>
+        <p><strong>Joined:</strong> January 1, 2023</p>
+        <p><strong>Score:</strong> 1500 Points</p>
+        <p><strong>Rank:</strong> #25</p>
+      </div>
+      <a class="btn">Edit Profile</a>
+      <a href="/login" class="btn btn-logout">Logout</a>
+    </div>
+  </body>
+</html>

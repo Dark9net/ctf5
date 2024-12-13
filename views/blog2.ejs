@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Challenges - Flag Challenge Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+      }
+      .navbar {
+        background-color: #333;
+        padding: 1rem;
+        margin-bottom: 20px;
+      }
+      .nav-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+      .nav-menu li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+      .nav-menu li a:hover {
+        background-color: #555;
+        border-radius: 3px;
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .blog-header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .blog-image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        margin-bottom: 20px;
+      }
+      .blog-content {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 20px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <ul class="nav-menu">
+          <li><a href='/'>Home</a></li>
+          <li><a href='/about'>About</a></li>
+          <li><a href="/blogs">Blogs</a></li>
+          <li><a href='/contact'>Contact</a></li>
+          <li><a href='/login'>Login</a></li>
+          <li><a href='/signup'>Signup</a></li>
+          <li><a href='/profile'>Profile</a></li>
+          <li><a href='/hints'>Hints</a></li>
+          <li><a href='/scoreboard'>Scoreboard</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Blog Content -->
+    <!-- Aces use its email id as username -->
+    <div class="container">
+      <h1 class="blog-header">Cybersecurity Challenges</h1>
+      <img
+        src="i6.jpg"
+        alt="Cybersecurity Challenges"
+        class="blog-image"
+      />
+      <div class="blog-content">
+        <p>
+          This is 3rd lab. This is different from 2nd lab. 
+        </p>
+        <p>
+          From SQL injection attacks to cross-site scripting (XSS), there are
+          numerous threats that developers need to mitigate when building secure
+          applications. Understanding these risks and implementing robust
+          security practices is crucial to ensure the safety of user data and
+          the integrity of the application.
+        </p>
+        <p>
+          By staying updated on the latest trends in cybersecurity and
+          continuously improving security measures, developers can safeguard
+          their web applications from the ever-growing array of cyber threats.
+        </p>
+        <a href="/blogs" class="btn">Back to Blogs</a>
+      </div>
+    </div>
+  </body>
+</html>

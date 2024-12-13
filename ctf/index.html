@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flag Challenge Website</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+      /* Navigation Styles */
+      .navbar {
+        background-color: #333;
+        padding: 1rem;
+      }
+      .nav-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .nav-menu {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+      }
+      .nav-menu li a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+      }
+      .nav-menu li a:hover {
+        background-color: #555;
+        border-radius: 3px;
+      }
+      /* Container Styles */
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      .content-section {
+        margin-bottom: 30px;
+      }
+      .content-image {
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      /* Button Styles */
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 10px;
+        transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      /* Responsive Design */
+      @media screen and (max-width: 768px) {
+        .nav-menu {
+          flex-direction: column;
+          align-items: center;
+        }
+        .nav-menu li {
+          margin: 10px 0;
+          width: 100%;
+          text-align: center;
+        }
+        .nav-menu li a {
+          display: block;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Signup</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="hints.html">Hints</a></li>
+          <li><a href="scoreboard.html">Scoreboard</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="content-section">
+        <h1>Welcome to the Flag Challenge Website</h1>
+        <p>Explore our exciting flag-finding adventure!</p>
+      </div>
+
+      <div class="content-section">
+        <h2>What is this website?</h2>
+        <p>
+          This is a fun challenge where you can discover and learn about flags
+          while solving interesting puzzles.
+        </p>
+        <img
+          src="https://placehold.co/800x400"
+          alt="Flag Challenge"
+          class="content-image"
+        />
+      </div>
+
+      <div class="content-section">
+        <h2>How to Play</h2>
+        <p>
+          Navigate through different pages, solve challenges, and collect flags.
+          Use the hints page if you get stuck!
+        </p>
+        <img
+          src="https://placehold.co/800x400"
+          alt="How to Play"
+          class="content-image"
+        />
+      </div>
+
+      <div class="content-section">
+        <a href="signup.html" class="btn">Get Started</a>
+        <a href="hints.html" class="btn">View Hints</a>
+      </div>
+    </div>
+  </body>
+</html>
